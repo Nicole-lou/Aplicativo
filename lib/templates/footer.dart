@@ -1,5 +1,3 @@
-// lib\templates\footer.dart
-
 import 'package:flutter/material.dart';
 
 class MyFooter extends StatelessWidget implements PreferredSizeWidget {

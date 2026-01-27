@@ -1,5 +1,3 @@
-// lib\pages\home.dart
-
 import 'package:flutter/material.dart';
 
 import '../templates/appbar.dart';
@@ -12,7 +10,7 @@ class HomePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: MyAppBar(title: 'QualquerCoisa'),
+      appBar: MyAppBar(title: 'QQCoisa'),
       bottomNavigationBar: MyFooter(),
       drawer: MyDrawer(),
 
