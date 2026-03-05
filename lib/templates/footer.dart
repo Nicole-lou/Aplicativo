@@ -1,3 +1,5 @@
+// lib\templates\footer.dart
+
 import 'package:flutter/material.dart';
 
 class MyFooter extends StatelessWidget implements PreferredSizeWidget {
@@ -8,7 +10,7 @@ class MyFooter extends StatelessWidget implements PreferredSizeWidget {
     return BottomAppBar(
       height: 50.0,
       padding: EdgeInsetsGeometry.zero,
-      color: Colors.green[800],
+      color: Colors.deepPurple,
       child: SizedBox(
         height: 40.0,
         child: Row(
